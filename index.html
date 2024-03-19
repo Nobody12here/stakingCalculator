@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Staking Calculator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+<script src="script.js"></script>
+</head>
+<body>
+<h1 class="heading"> Benifit Mine Staking Calculator</h1>
+<div class="container">
+  <h2>Staking Calculator</h2>
+  <label for="tokenAmount">Token Amount:</label>
+  <input type="number" id="tokenAmount" min="0" required><br>
+  <label for="duration">Staking Duration:</label><br>
+  <select id="duration">
+    <option value="0">Unlocked Staking</option>
+    <option value="6">6 Months</option>
+    <option value="12">12 Months</option>
+    <option value="18">18 Months</option>
+    <option value="24">24 Months</option>
+  </select><br>
+  <input type="submit" value="Calculate Reward" onclick="calculateReward()">
+  <p id="reward"></p>
+</div>
+
+
+
+</body>
+</html>
