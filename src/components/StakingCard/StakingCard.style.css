@@ -122,13 +122,13 @@
 }
 .btn2-container{
     align-items: center;
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     padding-bottom: 22px;
 }
 .btn2 {
-  margin-right: 48px;
+  
   background-color:#1E1E1E80;
   padding: 18px 48px 18px 48px;
   border-radius: 12px;
@@ -156,4 +156,18 @@
 .btn-connect{
     font-family: 'Inter';
 
+}
+.staking-calculator {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background-color: #f79c24;
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  width: 80%;
+  margin-bottom: 32px;
 }
