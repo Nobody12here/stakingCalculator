@@ -22,7 +22,7 @@ const Card: FC = (): JSX.Element => {
         <StakingDetails />
         <InputField tokenAmount={tokenAmount} setTokenAmount={setTokenAmount}></InputField>
         <DurationDropdown selectedDuration={duration} setSelectedDuration={setDuration}/>
-        <div className="loading">Reward Amount:   {duration === 0 ? `${reward} per day` : reward}</div>
+        <div className="loading">Reward Amount:   {duration === 0 ? `${reward} per Month` : reward}</div>
         <CalculateButton duration={duration} tokenAmount={tokenAmount} setReward={setReward}/>
         <button className="staking-calculator" onClick={()=>{window.location.href="https://staking-frontend-two.vercel.app/"}}>Staking Website</button>
       </div>

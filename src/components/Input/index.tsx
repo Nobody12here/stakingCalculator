@@ -37,11 +37,12 @@ const DurationDropdown: FC<DurationFieldProps> = ({
         value={selectedDuration || ""}
         onChange={handleDurationChange}
       >
-        <option value="0">Unlocked Staking (2.5%)</option>
-        <option value="6">6 months (Monthly 5%) </option>
-        <option value="12">12 months (Monthly 7%) </option>
-        <option value="18">18 months (Monthly 8.5%) </option>
-        <option value="24">24 months (Monthly 10%) </option>
+        <option value="0">Unlocked Staking (1%)</option>
+        <option value="3">3 months (Monthly 1.5%) </option>
+        <option value="6">6 months (Monthly 2%) </option>
+        <option value="12">12 months (Monthly 3.5%) </option>
+        <option value="18">18 months (Monthly 5%) </option>
+        <option value="24">24 months (Monthly 7%) </option>
       </select>
     </div>
   );
